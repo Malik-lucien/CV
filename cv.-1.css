@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('PermanentMarker-Regular.ttf');
+        
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Caveat_Regular';
+    src: url('Caveat-Regular.ttf');
+}
+ 
+
+ body 
+    {background-image: url("banieredecv.jpg");
+    background-position: ;
+    background-attachment: fixed;}   
+
+#conteneur
+{
+    display: flex;
+    justify-content: space-between ;
+}
+#comp
+{
+    display: flex;
+    justify-content: center ;
+}
+
+h2{
+    font-family: 'PermanentMarker';
+
+    color:black;
+}
+.caveat, h3{
+    font-family: 'Caveat_Regular';
+  }
+
+p{
+    font-family:'Caveat-Regular';
+    src: url('Caveat-Regular.ttf');
+    font-size:medium;
+} 
+table{
+    border-collapse: collapse;
+    width: 400px;
+  }
+  th, td{
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: top;
+  }
+li{list-style-type:square;}
